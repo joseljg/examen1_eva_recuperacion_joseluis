@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">examen1_eva_recuperacion_joseluis</string>
+    <string name="descripcion_imagen">imagen del circo </string>
+    <string name="titulo1">Circo Mundial Seseña</string>
+    <string name="titulo2">Elige temporada</string>
+    <string name="titulo3">Elige temporada</string>
+    <string name="cantidad_entradas">Cantidad de entradas</string>
+    <string name="palomitas">Palomitas?</string>
+    <string name="SI">SI</string>
+    <string name="NO">NO</string>
+    <string name="ir_al_pago">Ir al pago</string>
+    <string name="pago">Pago</string>
+    <string name="total_precio_entradas">Total precio entradas</string>
+    <string name="saldo_tarjeta">Saldo tarjeta</string>
+    <string name="cero">0</string>
+    <string name="cargar_saldo_tarjeta">Cargar saldo tarjeta</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="pagar">Pagar</string>
+</resources>
