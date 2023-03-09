@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_titulo1" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/sp_temporada"
         android:layout_width="332dp"
         android:layout_height="59dp"
         android:layout_marginStart="32dp"
@@ -73,7 +73,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+        app:layout_constraintTop_toBottomOf="@+id/sp_temporada" />
 
     <TextView
         android:id="@+id/txt_titulo_palomitas"
@@ -103,6 +103,7 @@
             android:id="@+id/rb_palomitas_si"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="asignar_quiere_palomitas"
             android:text="@string/SI"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -112,6 +113,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
+            android:onClick="asignar_quiere_palomitas"
             android:text="@string/NO"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -124,6 +126,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
         android:text="@string/ir_al_pago"
+        android:onClick="ir_al_pago"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
