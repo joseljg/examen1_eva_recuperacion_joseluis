@@ -74,6 +74,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="40dp"
         android:text="@string/cargar_saldo_tarjeta"
+        android:onClick="cargar_saldo_tarjeta"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_pantalla2_titulo3" />
 
@@ -98,6 +99,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:text="@string/pagar"
+        android:onClick="pagar_pedido"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edt_cargar_tarjeta" />
 
